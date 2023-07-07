@@ -26,5 +26,5 @@ Web前端个人网站，网页个人网站模版，HTML&CSS&JS制作个人网站
  
 ![远程调试/二次开发/毕设](https://gitee.com/wttAndroid/online-learning-platform/raw/master/public/static/weixin.jpg)
 
-#### 感谢支持
+#### 感谢支持 
 ![感谢悬赏](img/project/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230707234604.jpg)
