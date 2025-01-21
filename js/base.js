@@ -4,8 +4,7 @@
   var mycard = $('#mycard')
   
     let mycardTop = mycard&&mycard.offset()&&mycard.offset().top;
-    // let height=$('.header').height()
-    // console.log(mycardTop,height)
+
     window.onscroll = function () {
       var e = e || window.event;
       var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
