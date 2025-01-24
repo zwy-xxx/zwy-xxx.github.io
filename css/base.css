@@ -231,26 +231,28 @@ img {
 
 
 /* 导航 */ 
-/* 黑色主题背景 */
-.navigation.active{ 
-  background-image: url("../img/back/aitx6-0og08.webp") !important;
-  
-}
 /* 默认主题 */
 .navigation {
+  position: relative; /* 添加相对定位 */
   margin: 0px auto 0;
   width: 95%;
-  background-color: transparent;
   height: 600px;
   border-radius: 20px;
-  background-image: url("../img/back/a58cbbffd2aa49c1b1e99990be912f30.jpg");
-  background-attachment: fixed;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  overflow: hidden;
+  overflow: hidden; /* 保持溢出隐藏 */
   color: #fff;
 }
 
+/* 视频样式 */
+.background-video {
+  position: absolute; /* 绝对定位 */
+  top: 50%; /* 垂直居中 */
+  left: 60%;
+  width: 70%; /* 使视频宽度为100% */
+  height: 100%; /* 使视频高度为100% */
+  object-fit: cover; /* 保持视频比例并覆盖整个区域 */
+  transform: translate(-50%, -50%); /* 使视频居中 */
+  z-index: 1; /* 确保视频在内容上面 */
+}
 /* 顶部导航 */
 .navigation .titleBox-tag {
   text-transform: uppercase;
@@ -309,9 +311,10 @@ img {
 /* 内容 */
 
 .co-left {
-  width:35%;
+  width:30%;
   display: inline-block;
   height: 50px;
+ 
 }
 
 .co-right {
