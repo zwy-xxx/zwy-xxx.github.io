@@ -318,7 +318,11 @@ img {
   width: 64%;
   display: inline-block;
   /* background-color: #45454566; */
-  min-height: 50px;
+  min-height: 166px;
+}
+
+.co-right h1 {
+  margin-top: 150px; /* 向下移动的距离 */
 }
 .co{
   width: 70%;
@@ -337,9 +341,6 @@ img {
 
 
 /* 左半部分 */
-.content .me-card {
-  /* top: 390px; */
-}
 
 .scroll{
   position: fixed !important;
@@ -349,7 +350,7 @@ img {
   width: fit-content;
   min-width: 285px;
   transform: translateY(-351px);
-  height: 780px;
+  height: 600px;
   /* backgrounbad-color: var(--headerCOlor); */
   border-radius: 10px;
   text-align: center;
@@ -367,13 +368,13 @@ img {
 .me-hover span{
   margin: 0 auto;
   display: block;
-  font: 14px ;
+  font: 14px Arial;
   border-right: .08em solid;
   /* 个数*2ch */
-  width: 28ch; 
+  width: 18ch; 
   white-space: nowrap;
   overflow: hidden;
-  animation: typing 3s steps(28,end), blink-caret .3s step-end infinite alternate;
+  animation: typing 3s steps(18,end), blink-caret .3s step-end infinite alternate;
 }
 
 

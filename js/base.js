@@ -15,9 +15,6 @@
         mycard.removeClass('scroll')
       }
     }
- 
-
-  
 
   function initActive () {
     let root = document.querySelector(':root')
